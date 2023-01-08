@@ -1,1 +1,1 @@
-drop table balance;
+drop table ibank.balance;
