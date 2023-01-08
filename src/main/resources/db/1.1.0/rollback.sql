@@ -1,1 +1,1 @@
-drop schema ibank;
+drop table ibank.balance;
