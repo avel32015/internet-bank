@@ -1,7 +1,5 @@
 create table ibank.balance (
-                         id int primary key,
-                         name varchar(255),
-                         currentBalance int
+    id bigint primary key generated always as identity,
+    name text,
+    currentBalance number
 );
-
-
